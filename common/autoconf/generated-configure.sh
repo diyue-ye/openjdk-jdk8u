@@ -4408,7 +4408,7 @@ VS_SDK_PLATFORM_NAME_2017=
 #CUSTOM_AUTOCONF_INCLUDE
 
 # Do not change or remove the following line, it is needed for consistency checks:
-DATE_WHEN_GENERATED=1596496159
+DATE_WHEN_GENERATED=1613002176
 
 ###############################################################################
 #
@@ -14694,9 +14694,6 @@ $as_echo "$with_jvm_variants" >&6; }
   fi
   if test "x$VAR_CPU" = xppc64 -o "x$VAR_CPU" = xppc64le ; then
     INCLUDE_SA=true
-  fi
-  if test "x$OPENJDK_TARGET_CPU" = xaarch64; then
-    INCLUDE_SA=false
   fi
 
 
